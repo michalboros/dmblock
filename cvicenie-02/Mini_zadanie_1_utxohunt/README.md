@@ -83,7 +83,7 @@ You will need to modify
 
 	sendToAddressString
 
-	prevAddressString (the address of the "BTC secret key" pubkey)
+	prevAddressString (the address of the "BTC secret..." pubkey)
 
 	wire.NewTxOut (change the amount to less than the input amount.  A few thousand less is enough of a fee)
 
@@ -134,12 +134,13 @@ Here's an example transaction:
 the OP_RETURN is 36383932203936393830447573616e4d
 
 Run the python interpreter. From there:
-``` >>> "36383932203936393830447573616e4d".decode("hex")
-'6892 96980DusanM' ```
-
+``` 
+>>> "36383932203936393830447573616e4d".decode("hex")
+'6892 96980DusanM' 
+```
 Prefix all your OP_RETURNs with 6892 so it's easy to search for them.
 
 If you only grab a little bit of money and send an OP_RETURN, that's fine.  If you manage to get some of the bonus utxos in the network and send OP_RETURNs, even better!  If you want to get really fancy, try aggregating all your outputs into a single, higher value tx output. (Code left as excercise to the reader)
 
-You will get 3 points if you achieve to do everything as in this tutorial.
-You will get 1,5 points if you succeed to get an unspent UTXO, but do not succeed in sending OP_RETURN.
+<mark>You will get 3 points if you achieve to do everything AS in this tutorial.
+You will get 1,5 points if you succeed to get an unspent UTXO, but do not succeed in sending OP_RETURN or you send OP_RETURN straight from the first address.</mark>
