@@ -13,6 +13,6 @@ Teda postup je nasledovny:
 **Ked vsetko ide, zabalite tak ako je a date do AIS.**
 
 ### Body: 
-Update do solidity >0.5.0 tak, ze zbehne “truffle compile”, “truffle migrate” a “truffle test” = 1,5 boda
-To iste co vyssie, ale update do solidity >0.6.0 = 2,5 boda
-Vsetko ako v prvom bode, ale update do solidity >0.7.0 = 3 body.
+- Update do solidity >0.5.0 tak, ze zbehne “truffle compile”, “truffle migrate” a “truffle test” = 1,5 boda
+- To iste co vyssie, ale update do solidity >0.6.0 = 2,5 boda
+- Vsetko ako v prvom bode, ale update do solidity >0.7.0 = 3 body.
